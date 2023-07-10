@@ -9,6 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
         Library classUnderTest = new Library();
-        assertFalse(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'false'");
+        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
     }
 }
